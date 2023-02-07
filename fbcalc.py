@@ -42,11 +42,9 @@ def load_lottieurl(url):
     return r.json()
 
 
-# foodAni = load_lottieurl(
-    "https://assets5.lottiefiles.com/packages/lf20_ysas4vcp.json")
+# foodAni = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_ysas4vcp.json")
 
-# swipeAni = load_lottieurl(
-    "https://assets5.lottiefiles.com/packages/lf20_tchv1irg.json")
+# swipeAni = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_tchv1irg.json")
 
 with st.container():
     st.markdown("<h1 style='text-align: center; font-size: 70px; color: orange;'> Meal Plan Calculator. </h1>",
